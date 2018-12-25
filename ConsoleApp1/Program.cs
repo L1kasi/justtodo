@@ -18,15 +18,12 @@ namespace ConsoleApp1
             Itsme.Helloworld(n);
             Console.WriteLine(n);
         }
-        sealed class Itsme
+        public static void Helloworld(int n)
         {
-            public static void Helloworld(int n)
-            {
                 string s;
                 s = "Привет мир! ";
                 for (int i = 0; i < n; i++)
                     Console.WriteLine(s);
-            }
         }
-    }
+     }
 }
