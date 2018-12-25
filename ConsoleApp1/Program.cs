@@ -19,7 +19,9 @@ namespace ConsoleApp1
             c = int.Parse(Console.ReadLine());
             n = a + b + c;
             Helloworld(n);
-            Console.WriteLine("количество написанных фраз,  а также сумма трех чисел", n);
+            Console.WriteLine("количество написанных фраз,  а также сумма трех чисел");
+             Console.WriteLine(n);
+             Console.ReadKey();
         }
         public static void Helloworld(int n)
         {
