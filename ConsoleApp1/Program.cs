@@ -15,7 +15,7 @@ namespace ConsoleApp1
             b = int.Parse(Console.ReadLine());
             c = int.Parse(Console.ReadLine());
             n = a + b + c;
-            Itsme.Helloworld(n);
+            Helloworld(n);
             Console.WriteLine(n);
         }
         public static void Helloworld(int n)
