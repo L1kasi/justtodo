@@ -20,8 +20,7 @@ namespace ConsoleApp1
         }
         public static void Helloworld(int n)
         {
-                string s;
-                s = "Привет мир! ";
+                string s= "Привет мир! ";
                 for (int i = 0; i < n; i++)
                     Console.WriteLine(s);
         }
